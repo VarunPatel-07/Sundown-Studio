@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link rel="stylesheet" href="/scss/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Sundown Studio</title>
+  </head>
+  <body>
+    <div
+      id="fixed_video_image"
+      class="overflow-hidden border-2 d-none d-xl-block"
+    >
+      <img
+        src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b163d_Copy%20of%20DSC04086.webp"
+        class="w-100 h-100 object-fit-cover border-4"
+        id="Fixed_Image"
+        alt="image"
+      />
+    </div>
+    <div id="loader">
+      <div class="d-flex align-items-center justify-content-center h-100 w-100">
+        <h2 class="loader-text" id="loader_text">ENVIRONMENTS</h2>
+      </div>
+    </div>
+    <div id="main">
+      <div id="page1">
+        <nav class="navbar navbar-expand-lg pt-32 pt-lg-4">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img
+                src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15c2_Sundown%20logo.svg"
+                alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item px-2">
+                  <a
+                    class="btn btn-outline-secondary rounded-pill px-3 position-relative overflow-hidden hover_link_one"
+                    href="#"
+                  >
+                    <span
+                      class="fw-medium text-capitalize position-relative z-1"
+                      >work</span
+                    >
+                  </a>
+                </li>
+                <li class="nav-item px-2">
+                  <a
+                    class="btn btn-outline-secondary rounded-pill px-3 position-relative overflow-hidden hover_link_one"
+                    href="#"
+                  >
+                    <span
+                      class="fw-medium text-capitalize position-relative z-1"
+                      >studio</span
+                    >
+                  </a>
+                </li>
+                <li class="nav-item px-2">
+                  <a
+                    class="btn btn-outline-secondary rounded-pill px-3 position-relative overflow-hidden hover_link_one"
+                    href="#"
+                  >
+                    <span
+                      class="fw-medium text-capitalize position-relative z-1"
+                      >contact</span
+                    >
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div id="center">
+          <div class="container-fluid mt-150">
+            <div class="row flex-column-reverse flex-md-row">
+              <div class="col-md-6">
+                <div class="small-text-sec">
+                  <h6 class="thin-text-h6">
+                    Sundown is a multi-disciplinary studio focused on creating
+                    unique, end-to-end experiences and environments.
+                  </h6>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="heading-text-section">
+                  <h1 class="heading-text-h1">SPACES THAT INSPIRE</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="video" class="position-relative">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12 border-color mt-4">
+                <video
+                  class="w-100 rounded-4 p-0 mt-5 position-relative z-3"
+                  src="./img/video.mp4"
+                  autoplay
+                  muted
+                  loop
+                ></video>
+              </div>
+            </div>
+          </div>
+          <div id="hero_shape" class="d-none d-lg-block">
+            <div id="hero-1"></div>
+            <div id="hero-2"></div>
+            <div id="hero-3"></div>
+          </div>
+        </div>
+      </div>
+      <div id="page2" class="position-relative">
+        <!-- moving text slider -->
+        <div class="container-fluid pt-140">
+          <div class="col-md-12 w215 animation_class p-0">
+            <div class="row">
+              <div class="d-flex align-items-center gap-3 gap-lg-5">
+                <div class="w-auto">
+                  <div class="text-sec d-flex align-items-center gap-2">
+                    <span class="circle rounded-pill"></span>
+                    <h2 class="slider-text-h2">ENVIRONMENTS</h2>
+                  </div>
+                </div>
+                <div class="w-auto px-2">
+                  <div class="text-sec d-flex align-items-center gap-2">
+                    <span class="circle rounded-pill"></span>
+                    <h2 class="slider-text-h2">EXPERIENCES</h2>
+                  </div>
+                </div>
+                <div class="w-auto px-2">
+                  <div class="text-sec d-flex align-items-center gap-2">
+                    <span class="circle rounded-pill"></span>
+                    <h2 class="slider-text-h2">CONTENT</h2>
+                  </div>
+                </div>
+                <div class="w-auto px-2">
+                  <div class="text-sec d-flex align-items-center gap-2">
+                    <span class="circle rounded-pill"></span>
+                    <h2 class="slider-text-h2">ENVIRONMENTS</h2>
+                  </div>
+                </div>
+                <div class="w-auto px-2">
+                  <div class="text-sec d-flex align-items-center gap-2">
+                    <span class="circle rounded-pill"></span>
+                    <h2 class="slider-text-h2">EXPERIENCES</h2>
+                  </div>
+                </div>
+                <div class="w-auto px-2">
+                  <div class="text-sec d-flex align-items-center gap-2">
+                    <span class="circle rounded-pill"></span>
+                    <h2 class="slider-text-h2">CONTENT</h2>
+                  </div>
+                </div>
+                <div class="w-auto">
+                  <div class="text-sec d-flex align-items-center gap-2">
+                    <span class="circle rounded-pill"></span>
+                    <h2 class="slider-text-h2">ENVIRONMENTS</h2>
+                  </div>
+                </div>
+                <div class="w-auto px-2">
+                  <div class="text-sec d-flex align-items-center gap-2">
+                    <span class="circle rounded-pill"></span>
+                    <h2 class="slider-text-h2">EXPERIENCES</h2>
+                  </div>
+                </div>
+                <div class="w-auto px-2">
+                  <div class="text-sec d-flex align-items-center gap-2">
+                    <span class="circle rounded-pill"></span>
+                    <h2 class="slider-text-h2">CONTENT</h2>
+                  </div>
+                </div>
+                <div class="w-auto px-2">
+                  <div class="text-sec d-flex align-items-center gap-2">
+                    <span class="circle rounded-pill"></span>
+                    <h2 class="slider-text-h2">ENVIRONMENTS</h2>
+                  </div>
+                </div>
+                <div class="w-auto px-2">
+                  <div class="text-sec d-flex align-items-center gap-2">
+                    <span class="circle rounded-pill"></span>
+                    <h2 class="slider-text-h2">EXPERIENCES</h2>
+                  </div>
+                </div>
+                <div class="w-auto px-2">
+                  <div class="text-sec d-flex align-items-center gap-2">
+                    <span class="circle rounded-pill"></span>
+                    <h2 class="slider-text-h2">CONTENT</h2>
+                  </div>
+                </div>
+                <div class="w-auto">
+                  <div class="text-sec d-flex align-items-center gap-2">
+                    <span class="circle rounded-pill"></span>
+                    <h2 class="slider-text-h2">ENVIRONMENTS</h2>
+                  </div>
+                </div>
+                <div class="w-auto px-2">
+                  <div class="text-sec d-flex align-items-center gap-2">
+                    <span class="circle rounded-pill"></span>
+                    <h2 class="slider-text-h2">EXPERIENCES</h2>
+                  </div>
+                </div>
+                <div class="w-auto px-2">
+                  <div class="text-sec d-flex align-items-center gap-2">
+                    <span class="circle rounded-pill"></span>
+                    <h2 class="slider-text-h2">CONTENT</h2>
+                  </div>
+                </div>
+                <div class="w-auto px-2">
+                  <div class="text-sec d-flex align-items-center gap-2">
+                    <span class="circle rounded-pill"></span>
+                    <h2 class="slider-text-h2">ENVIRONMENTS</h2>
+                  </div>
+                </div>
+                <div class="w-auto px-2">
+                  <div class="text-sec d-flex align-items-center gap-2">
+                    <span class="circle rounded-pill"></span>
+                    <h2 class="slider-text-h2">EXPERIENCES</h2>
+                  </div>
+                </div>
+                <div class="w-auto px-2">
+                  <div class="text-sec d-flex align-items-center gap-2">
+                    <span class="circle rounded-pill"></span>
+                    <h2 class="slider-text-h2">CONTENT</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid px-xl-5 pt-140 position-relative z-1">
+          <div class="row">
+            <div class="col-md-8 position-relative">
+              <div class="peragraph_sec mw-865">
+                <p class="paragraph-text-p">
+                  We are a group of design-driven, goal-focused creators,
+                  producers, and designers who believe that the details make all
+                  the difference.
+                </p>
+              </div>
+              <div class="circle_animation d-none d-xl-block"></div>
+            </div>
+            <div class="col-md-4">
+              <div
+                class="card w-100 mw-310 ms-auto pt-140 bg-transparent border-0"
+              >
+                <img
+                  src="/img/card-image-1.webp"
+                  class="card-img-top mw-202 rounded-3"
+                  alt="..."
+                />
+                <div class="card-body px-0 pt-4">
+                  <p class="card-text card-pera-text">
+                    We love to create, we love to solve, we love to collaborate,
+                    and we love to turn amazing ideas into reality. We’re here
+                    to partner with you through every step of the process and
+                    know that relationships are the most important things we
+                    build.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 ptb-80">
+            <div class="d-flex align-items-center justify-content-start gap-2">
+              <span class="dot"></span>
+              <p class="card-pera-text m-0">FEATURED PROJECTS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="page3">
+        <div class="container-fluid d-none d-xl-block">
+          <div class="row" id="elem_Container">
+            <div
+              class="col-md-12 position-relative overflow-hidden animated_accordion p-0 elem"
+              data-url="https://images.unsplash.com/photo-1709436075317-23505f51bcb2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHx8"
+            >
+              <div class="row ptb-28 plr-32 position-relative z-1">
+                <div class="col-md-6 text-start">
+                  <h3
+                    class="h-100 d-flex justify-content-center flex-column h3-text"
+                  >
+                    50th Anniversary
+                  </h3>
+                </div>
+                <div class="col-md-6 text-end">
+                  <div class="h-100 d-flex justify-content-center flex-column">
+                    <h6 class="m-0">Nike</h6>
+                    <p class="m-0">Environment</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-12 position-relative overflow-hidden animated_accordion p-0 elem"
+              data-url="https://images.unsplash.com/photo-1707343846292-0c11438d145f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHx8"
+            >
+              <div class="row ptb-28 plr-32 position-relative z-1">
+                <div class="col-md-6 text-start">
+                  <h3
+                    class="h-100 d-flex justify-content-center flex-column h3-text"
+                  >
+                    Play New Kidvision
+                  </h3>
+                </div>
+                <div class="col-md-6 text-end">
+                  <div class="h-100 d-flex justify-content-center flex-column">
+                    <h6 class="m-0">Nike</h6>
+                    <p class="m-0">Environment</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-12 position-relative overflow-hidden animated_accordion p-0 elem"
+              data-url="https://images.unsplash.com/photo-1709416618667-0d745351ad02?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D"
+            >
+              <div class="row ptb-28 plr-32 position-relative z-1">
+                <div class="col-md-6 text-start">
+                  <h3
+                    class="h-100 d-flex justify-content-center flex-column h3-text"
+                  >
+                    Makers Studio HOI
+                  </h3>
+                </div>
+                <div class="col-md-6 text-end">
+                  <div class="h-100 d-flex justify-content-center flex-column">
+                    <h6 class="m-0">Nike</h6>
+                    <p class="m-0">Environment</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-12 position-relative overflow-hidden animated_accordion p-0 elem"
+              data-url="https://plus.unsplash.com/premium_photo-1709311448945-df64d47cb8e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMnx8fGVufDB8fHx8fA%3D%3D"
+            >
+              <div class="row ptb-28 plr-32 position-relative z-1">
+                <div class="col-md-6 text-start">
+                  <h3
+                    class="h-100 d-flex justify-content-center flex-column h3-text"
+                  >
+                    Air Force 1 2021
+                  </h3>
+                </div>
+                <div class="col-md-6 text-end">
+                  <div class="h-100 d-flex justify-content-center flex-column">
+                    <h6 class="m-0">Nike</h6>
+                    <p class="m-0">Environment</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-12 position-relative overflow-hidden animated_accordion p-0 elem"
+              data-url="https://images.unsplash.com/photo-1708448152962-08e08e297e41?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D"
+            >
+              <div class="row ptb-28 plr-32 position-relative z-1">
+                <div class="col-md-6 text-start">
+                  <h3
+                    class="h-100 d-flex justify-content-center flex-column h3-text"
+                  >
+                    SOHO NYC
+                  </h3>
+                </div>
+                <div class="col-md-6 text-end">
+                  <div class="h-100 d-flex justify-content-center flex-column">
+                    <h6 class="m-0">Nike</h6>
+                    <p class="m-0">Environment</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-12 position-relative overflow-hidden animated_accordion p-0 elem"
+              data-url="https://images.unsplash.com/photo-1709136333273-22d686bd38c6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0MHx8fGVufDB8fHx8fA%3D%3D"
+            >
+              <div class="row ptb-28 plr-32 position-relative z-1">
+                <div class="col-md-6 text-start">
+                  <h3
+                    class="h-100 d-flex justify-content-center flex-column h3-text"
+                  >
+                    NYFW Popup
+                  </h3>
+                </div>
+                <div class="col-md-6 text-end">
+                  <div class="h-100 d-flex justify-content-center flex-column">
+                    <h6 class="m-0">Nike</h6>
+                    <p class="m-0">Environment</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-12 position-relative overflow-hidden animated_accordion p-0 elem"
+              data-url="https://images.unsplash.com/photo-1682687221038-404cb8830901?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw0N3x8fGVufDB8fHx8fA%3D%3D"
+            >
+              <div class="row ptb-28 plr-32 position-relative z-1">
+                <div class="col-md-6 text-start">
+                  <h3
+                    class="h-100 d-flex justify-content-center flex-column h3-text"
+                  >
+                    SOHO 2023
+                  </h3>
+                </div>
+                <div class="col-md-6 text-end">
+                  <div class="h-100 d-flex justify-content-center flex-column">
+                    <h6 class="m-0">Nike</h6>
+                    <p class="m-0">Environment</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid d-xl-none">
+          <div class="row">
+            <div class="col-sm-6 col-lg-4 col-md-6 pt-4">
+              <div class="card bg-transparent rounded-4 border-0">
+                <img
+                  src="https://images.unsplash.com/photo-1709436075317-23505f51bcb2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHx8"
+                  class="card-img-top rounded-4"
+                  alt="..."
+                />
+                <div class="card-body px-15">
+                  <h3
+                    class="h-100 d-flex justify-content-center flex-column h3-text"
+                  >
+                    50th Anniversary
+                  </h3>
+
+                  <h5 class="m-0">Nike</h5>
+                  <p class="m-0">Environment</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-md-6 pt-4">
+              <div class="card bg-transparent rounded-4 border-0">
+                <img
+                  src="https://images.unsplash.com/photo-1709436075317-23505f51bcb2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHx8"
+                  class="card-img-top rounded-4"
+                  alt="..."
+                />
+                <div class="card-body px-15">
+                  <h3
+                    class="h-100 d-flex justify-content-center flex-column h3-text"
+                  >
+                    50th Anniversary
+                  </h3>
+
+                  <h5 class="m-0">Nike</h5>
+                  <p class="m-0">Environment</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-md-6 pt-4">
+              <div class="card bg-transparent rounded-4 border-0">
+                <img
+                  src="https://images.unsplash.com/photo-1709436075317-23505f51bcb2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHx8"
+                  class="card-img-top rounded-4"
+                  alt="..."
+                />
+                <div class="card-body px-15">
+                  <h3
+                    class="h-100 d-flex justify-content-center flex-column h3-text"
+                  >
+                    50th Anniversary
+                  </h3>
+
+                  <h5 class="m-0">Nike</h5>
+                  <p class="m-0">Environment</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-md-6 pt-4">
+              <div class="card bg-transparent rounded-4 border-0">
+                <img
+                  src="https://images.unsplash.com/photo-1709436075317-23505f51bcb2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHx8"
+                  class="card-img-top rounded-4"
+                  alt="..."
+                />
+                <div class="card-body px-15">
+                  <h3
+                    class="h-100 d-flex justify-content-center flex-column h3-text"
+                  >
+                    50th Anniversary
+                  </h3>
+
+                  <h5 class="m-0">Nike</h5>
+                  <p class="m-0">Environment</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-md-6 pt-4">
+              <div class="card bg-transparent rounded-4 border-0">
+                <img
+                  src="https://images.unsplash.com/photo-1709436075317-23505f51bcb2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHx8"
+                  class="card-img-top rounded-4"
+                  alt="..."
+                />
+                <div class="card-body px-15">
+                  <h3
+                    class="h-100 d-flex justify-content-center flex-column h3-text"
+                  >
+                    50th Anniversary
+                  </h3>
+
+                  <h5 class="m-0">Nike</h5>
+                  <p class="m-0">Environment</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-md-6 pt-4">
+              <div class="card bg-transparent rounded-4 border-0">
+                <img
+                  src="https://images.unsplash.com/photo-1709436075317-23505f51bcb2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHx8"
+                  class="card-img-top rounded-4"
+                  alt="..."
+                />
+                <div class="card-body px-15">
+                  <h3
+                    class="h-100 d-flex justify-content-center flex-column h3-text"
+                  >
+                    50th Anniversary
+                  </h3>
+
+                  <h5 class="m-0">Nike</h5>
+                  <p class="m-0">Environment</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-md-6 pt-4">
+              <div class="card bg-transparent rounded-4 border-0">
+                <img
+                  src="https://images.unsplash.com/photo-1709436075317-23505f51bcb2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHx8"
+                  class="card-img-top rounded-4"
+                  alt="..."
+                />
+                <div class="card-body px-15">
+                  <h3
+                    class="h-100 d-flex justify-content-center flex-column h3-text"
+                  >
+                    50th Anniversary
+                  </h3>
+
+                  <h5 class="m-0">Nike</h5>
+                  <p class="m-0">Environment</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-100 px-15">
+          <div class="px-4 py-2 py-lg-5">
+            <a
+              class="btn btn-outline-secondary rounded-pill px-3 position-relative overflow-hidden hover_link_one"
+              href="#"
+            >
+              <span class="fw-medium text-capitalize position-relative z-1"
+                >All Projects</span
+              >
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="page4" class="pt-90">
+        <div class="container-fluid px-4 px-lg-5">
+          <div
+            class="row bg-0b0500 rounded-4 align-items-center overflow-hidden"
+          >
+            <div class="col-md-6 px-4 px-xl-0">
+              <div class="row py-4 px-3 py-md-0 px-md-0">
+                <div class="col-md-12">
+                  <div class="row flex-column">
+                    <div class="col-xl-6 mx-auto col-12">
+                      <div
+                        class="w-100 d-flex align-items-stretch gap-2 justify-content-start cursor-pointer active-flex button-one"
+                        data-image-url="https://images.unsplash.com/photo-1637859460045-ac3ae9ced99d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZ2UlMjByb3ZlcnxlbnwwfHwwfHx8MA%3D%3D"
+                        data-text=" Our team works with our clients to refine an idea and
+                     concept into an executable design. We create a final
+                     design that encompasses the brand narrative to bring
+                     stories to life and provide end-to-end design solutions
+                     from concept, design, and architectural drawings to 3D
+                     renderings."
+                      >
+                        <span class="line"></span>
+                        <h3
+                          class="h-100 d-flex justify-content-center flex-column h3-text text-white-1 text-capitalize fs-80 m-0"
+                        >
+                          design
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="col-xl-6 mx-auto col-12">
+                      <div
+                        class="w-100 d-flex align-items-stretch gap-2 justify-content-start cursor-pointer button-one"
+                        data-image-url="https://images.unsplash.com/photo-1708719961290-d74824a3a554?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM1fEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D"
+                        data-text="Once we have a design, our production team takes the lead in bringing it to life. We manage all stages of the project, from build specifications and technical drawings to site surveys, vendor management, and 2D & 3D production. We have an extensive network of partners to meet each unique design and project need."
+                      >
+                        <span class="line"></span>
+                        <h3
+                          class="h-100 d-flex justify-content-center flex-column h3-text text-white-1 text-capitalize fs-80 m-0"
+                        >
+                          project
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="col-xl-6 mx-auto col-12">
+                      <div
+                        class="w-100 d-flex align-items-stretch gap-2 justify-content-start cursor-pointer button-one"
+                        data-text="We’re with you every step of the way, from the project initiation to launch day. Our production and design teams are onsite to direct and guide the process down to the last point of completion, ensuring success across the built space and experience."
+                        data-image-url="https://images.unsplash.com/photo-1627542607220-a201f919aac6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM5fEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D"
+                      >
+                        <span class="line"></span>
+                        <h3
+                          class="h-100 d-flex justify-content-center flex-column h3-text text-white-1 text-capitalize fs-80 m-0"
+                        >
+                          execution
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="col-xl-6 mx-auto col-12 pt-5">
+                    <p
+                      class="card-pera-text fs-16 text-white"
+                      id="variable_text_sec"
+                    >
+                      Our team works with our clients to refine an idea and
+                      concept into an executable design. We create a final
+                      design that encompasses the brand narrative to bring
+                      stories to life and provide end-to-end design solutions
+                      from concept, design, and architectural drawings to 3D
+                      renderings.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 overflow-hidden p-0 rounded-start-4">
+              <img
+                src="https://images.unsplash.com/photo-1637859460045-ac3ae9ced99d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZ2UlMjByb3ZlcnxlbnwwfHwwfHx8MA%3D%3D"
+                class="w-100 h-100 object-fit-cover hover_on_image mh-915"
+                id="variable_image"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="w-100 ptb-80 px-5">
+          <div class="d-flex align-items-center justify-content-start gap-2">
+            <span class="dot"></span>
+            <p class="card-pera-text m-0">WHO WE WORK WITH</p>
+          </div>
+        </div>
+        <div class="container-fluid ptb-80 px-5 position-relative">
+          <div class="row">
+            <div class="swiper first_slider_sec">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide border-start-1 px-4">
+                  <div
+                    class="d-flex flex-column gap-3 align-items-start justify-content-between"
+                  >
+                    <div>
+                      <img
+                        src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b15ff_Nike.svg"
+                        alt=""
+                      />
+                    </div>
+                    <p class="card-pera-text fs-16">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Minus nesciunt doloremque officiis mollitia beatae et
+                      corrupti? Voluptatum iusto obcaecati laboriosam ex enim.
+                      Commodi aspernatur, praesentium laudantium voluptates
+                      dicta atque aliquid?
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide border-start-1 px-4">
+                  <div
+                    class="d-flex flex-column gap-3 align-items-start justify-content-between"
+                  >
+                    <div>
+                      <img
+                        src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b15ff_Nike.svg"
+                        alt=""
+                      />
+                    </div>
+                    <p class="card-pera-text fs-16">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Minus nesciunt doloremque officiis mollitia beatae et
+                      corrupti? Voluptatum iusto obcaecati laboriosam ex enim.
+                      Commodi aspernatur, praesentium laudantium voluptates
+                      dicta atque aliquid?
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide border-start-1 px-4">
+                  <div
+                    class="d-flex flex-column gap-3 align-items-start justify-content-between"
+                  >
+                    <div>
+                      <img
+                        src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b15ff_Nike.svg"
+                        alt=""
+                      />
+                    </div>
+                    <p class="card-pera-text fs-16">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Minus nesciunt doloremque officiis mollitia beatae et
+                      corrupti? Voluptatum iusto obcaecati laboriosam ex enim.
+                      Commodi aspernatur, praesentium laudantium voluptates
+                      dicta atque aliquid?
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide border-start-1 px-4">
+                  <div
+                    class="d-flex flex-column gap-3 align-items-start justify-content-between"
+                  >
+                    <div>
+                      <img
+                        src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b15ff_Nike.svg"
+                        alt=""
+                      />
+                    </div>
+                    <p class="card-pera-text fs-16">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Minus nesciunt doloremque officiis mollitia beatae et
+                      corrupti? Voluptatum iusto obcaecati laboriosam ex enim.
+                      Commodi aspernatur, praesentium laudantium voluptates
+                      dicta atque aliquid?
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide border-start-1 px-4">
+                  <div
+                    class="d-flex flex-column gap-3 align-items-start justify-content-between"
+                  >
+                    <div>
+                      <img
+                        src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b15ff_Nike.svg"
+                        alt=""
+                      />
+                    </div>
+                    <p class="card-pera-text fs-16">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Minus nesciunt doloremque officiis mollitia beatae et
+                      corrupti? Voluptatum iusto obcaecati laboriosam ex enim.
+                      Commodi aspernatur, praesentium laudantium voluptates
+                      dicta atque aliquid?
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide border-start-1 px-4">
+                  <div
+                    class="d-flex flex-column gap-3 align-items-start justify-content-between"
+                  >
+                    <div>
+                      <img
+                        src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b15ff_Nike.svg"
+                        alt=""
+                      />
+                    </div>
+                    <p class="card-pera-text fs-16">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Minus nesciunt doloremque officiis mollitia beatae et
+                      corrupti? Voluptatum iusto obcaecati laboriosam ex enim.
+                      Commodi aspernatur, praesentium laudantium voluptates
+                      dicta atque aliquid?
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide border-start-1 px-4">
+                  <div
+                    class="d-flex flex-column gap-3 align-items-start justify-content-between"
+                  >
+                    <div>
+                      <img
+                        src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b15ff_Nike.svg"
+                        alt=""
+                      />
+                    </div>
+                    <p class="card-pera-text fs-16">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Minus nesciunt doloremque officiis mollitia beatae et
+                      corrupti? Voluptatum iusto obcaecati laboriosam ex enim.
+                      Commodi aspernatur, praesentium laudantium voluptates
+                      dicta atque aliquid?
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide border-start-1 px-4">
+                  <div
+                    class="d-flex flex-column gap-3 align-items-start justify-content-between"
+                  >
+                    <div>
+                      <img
+                        src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b15ff_Nike.svg"
+                        alt=""
+                      />
+                    </div>
+                    <p class="card-pera-text fs-16">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Minus nesciunt doloremque officiis mollitia beatae et
+                      corrupti? Voluptatum iusto obcaecati laboriosam ex enim.
+                      Commodi aspernatur, praesentium laudantium voluptates
+                      dicta atque aliquid?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="page5"></div>
+    </div>
+
+    <div id="footer" data-scroll-call="active">
+      <div class="color_animation_floating">
+        <div class="color_one"></div>
+        <div class="color_two"></div>
+        <div class="color_three"></div>
+      </div>
+      <div class="container-fluid position-fixed top-45-z-1 z-index-2">
+        <nav class="navbar navbar-expand-lg bg-transparent py-3">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul
+                class="navbar-nav flex-column me-auto mb-2 mb-lg-0 align-items-start"
+              >
+                <li class="nav-item py-1">
+                  <a
+                    class="nav-link active fs-30-white"
+                    aria-current="page"
+                    href="#"
+                    >work</a
+                  >
+                </li>
+                <li class="nav-item py-1">
+                  <a
+                    class="nav-link active fs-30-white"
+                    aria-current="page"
+                    href="#"
+                    >studio</a
+                  >
+                </li>
+                <li class="nav-item py-1">
+                  <a
+                    class="nav-link active fs-30-white"
+                    aria-current="page"
+                    href="#"
+                    >contact</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="container-fluid position-fixed bottom-0 z-1">
+        <div class="row px-4">
+          <div class="col-md-12">
+            <h1 class="footer_text">Sundown</h1>
+          </div>
+          <div class="col-md-12 border-top">
+            <div class="row py-4">
+              <div class="col-md-3 text-center">
+                <a href="" class="footer_links_ancher"
+                  ><span>Copyright © Sundown Studio</span></a
+                >
+              </div>
+              <div class="col-md-3 text-center">
+                <a href="" class="footer_links_ancher">
+                  <span>Brooklyn, NY</span>
+                </a>
+              </div>
+              <div class="col-md-3 text-center">
+                <a href="" class="footer_links_ancher">
+                  <span>instagram</span>
+                </a>
+              </div>
+              <div class="col-md-3 text-center">
+                <a href="" class="footer_links_ancher">
+                  <span> LinkedIn</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- javascript links  -->
+
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.39/dist/lenis.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--? bootstrap links -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom link -->
+    <script src="/index.js"></script>
+  </body>
+</html>
